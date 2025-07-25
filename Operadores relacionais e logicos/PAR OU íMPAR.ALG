@@ -1,27 +1,27 @@
-Algoritmo "Par ou Ìmpar"
+Algoritmo "Par ou √çmpar"
 
 Var
 
    x : inteiro
    
-   //N„o utilizamos o tipo real
+   //N√£o utilizamos o tipo real
 
 
 Inicio
 
-   //Escrever um programa que verifique e informe se um n˙mero inteiro qualquer digitado È par ou Ìmpar
+   //Escrever um programa que verifique e informe se um n√∫mero inteiro qualquer digitado √© par ou √≠mpar
 
 
    //ENTRADA
 
-   Escreval("Informe o n˙mero")
+   Escreval("Informe o n√∫mero")
    leia(x)
 
 
    se (x MOD 2 = 0) entao
-      Escreval("O n˙mero ", x," È par")
+      Escreval("O n√∫mero ", x," √© par")
    senao
-      Escreval("O n˙mero ", x," È Ìmpar")
+      Escreval("O n√∫mero ", x," √© √≠mpar")
 
    fimse
 
